@@ -102,7 +102,7 @@ h1 {
     color: #f5a623;
 }
 
-.candidates-container {
+.title-container {
     margin-top: 20px;
     background: #282828;
     padding: 15px;
@@ -112,7 +112,7 @@ h1 {
     text-align: center;
 }
 
-.candidates-container h2 {
+.title-container h2 {
     color: #f5a623;
     font-size: 1.25rem;
 }
