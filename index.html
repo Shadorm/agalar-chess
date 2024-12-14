@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>AGALAR Grand Championship</title>
+</head>
+<body>
+
+    <h1>AGALAR Grand Championship</h1>
+
+        <div class="stage">
+            <div class="stage-title">2024 Championship Match</div>
+            <div class="match" onclick="toggleDetails(this)">
+                <div class="player winner">Schermann</div>
+                <div class="player loser">Ali</div>
+                <div class="match-score">8-5</div>
+                <div class="details">
+                    <strong>Games:</strong> <br>
+                    Game 1: 0.5 - 0.5<br>
+                    Game 2: 1 - 0<br>
+                    Game 3: 1 - 0 <br>
+                    Game 4: 1 - 0<br>
+                    Game 5: 0 - 1<br>
+                    Game 6: 0.5 - 0.5<br>
+                    Game 7: 0.5 - 0.5<br>
+                    Game 8: 0 - 1<br>
+                    Game 9: 0 - 1<br>
+                    Game 10: 1 - 0<br>
+                    Game 11: 1 - 0<br>
+                    Game 12: 0.5 - 0.5<br>
+                    Game 13: 1 - 0<br>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="candidates-container">
+        <h3>CANDIDATES 2024/2</h3>
+    </div>
+
+    <div class="bracket">
+        <!-- Semifinals -->
+        <div class="stage">
+            <div class="stage-title">Semifinals (first to 5)</div>
+            <div class="match" onclick="toggleDetails(this)">
+                <div class="player winner">Ali D.</div>
+                <div class="player loser">Satou</div>
+                <div class="match-score">5-3</div>
+                <div class="details">
+                    <strong>Games:</strong> <br>
+                    Game 1: 1 - 0 <br>
+                    Game 2: 0 - 1 <br>
+                    Game 3: 0 - 1 <br>
+                    Game 4: 1 - 0 <br>
+                    Game 5: 1-0 <br>
+                    Game 6: 0 - 1 <br>
+                    Game 7: 1 - 0 <br>
+                    Game 8: 1 - 0 <br>
+                </div>
+            </div>
+            <div class="match" onclick="toggleDetails(this)">
+                <div class="player">Ali T.</div>
+                <div class="player">Marco</div>
+                <div class="match-score">TBD</div>
+                <div class="details">
+                    <strong>Games:</strong> <br>
+                    TBD
+                </div>
+            </div>
+        </div>
+
+        <!-- Grandfinal -->
+        <div class="stage">
+            <div class="stage-title">Grandfinal</div>
+            <div class="match" onclick="toggleDetails(this)">
+                <div class="player">Ali D.</div>
+                <div class="player">TBD</div>
+                <div class="match-score">TBD</div>
+                <div class="details">
+                    <strong>Games:</strong> <br>
+                    TBD
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2025 Championship Match -->
+    <div class="stage">
+        <div class="stage-title">2025 Championship Match</div>
+        <div class="match" onclick="toggleDetails(this)">
+            <div class="player">Schermann</div>
+            <div class="player">Candidates Winner</div>
+            <div class="match-score">TBD</div>
+            <div class="details">
+                <strong>Games:</strong> <br>
+                TBD
+            </div>
+        </div>
+    </div>
+
+    <!-- Formats -->
+    <div class="formats">
+        <h2>Formats</h2>
+        <div class="format-category">
+            <h3>Championship Match</h3>
+            <p>The Championship Match consists of 14 games. First to 7.5 points wins. In case of a tie after 14 games: <br >
+               <strong>Rapid:</strong> 4 games, 5 minutes + 5 seconds per player per move. <br>
+               <strong>Blitz:</strong> 2 games, 3 minutes + 3 seconds per player per move. <br>
+               <strong>Armageddon:</strong> 5 minutes for White and 4 minutes for Black. If the game ends in a draw, the player playing Black is declared the winner. <br>
+               In this way, tiebreaks are played.</p>
+        </div>
+        
+
+        <div class="format-category">
+            <h3>Candidates</h3>
+            <p>It is played as <strong>playoffs</strong> with the logic <strong>first to 5 points</strong> depending on the number of participants.
+                The winner gets the right to be an challenger for the <strong>Championship</strong> match.</p>
+        </div>
+
+        <div class="format-category">
+            <h3>Opens</h3>
+            <p>The results are in the case of possible additional <strong>participants</strong> for <strog>Candidates</strog>. These are tournaments that determine who can and cannot participate, but have little to do with the actual championship. 
+                Usually played in <strong>7 rounds</strong> or <strong>14 rounds</strong> swiss format</p>
+        </div>
+    </div>
+
+    <script src="style/main.js"></script>
+</body>
+</html>
